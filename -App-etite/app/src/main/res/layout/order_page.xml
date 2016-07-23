@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.appetite.ChefMenuInfo">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:id="@+id/chef_foodImg"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#AD3232"
+            android:id="@+id/dish"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#AD3232"
+                android:text="Customer : " />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:text=" "
+                android:id="@+id/ingre"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#AD3232"
+                android:text="Orders Placed: " />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:text=" "
+                android:id="@+id/ordered"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="Message : "
+                android:textColor="#AD3232" />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:inputType="textCapSentences"
+                android:id="@+id/msgFrmChef" />
+        </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="  NOTIFY USER  "
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="@drawable/image_bg"
+        android:textColor="#ffffff"
+        android:id="@+id/doneButton"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

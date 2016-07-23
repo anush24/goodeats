@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/redcloth"
+    android:orientation="vertical"
+    android:scaleType="fitXY"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.kavi.appetitesample.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <!--<TextView-->
+        <!--android:id="@+id/title"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_marginTop="70dp"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:text="APPetite"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:textSize="35dp"-->
+        <!--android:textStyle="bold" />-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="55dp"
+
+            android:layout_marginTop="220dp"
+            android:elevation="4dp"
+            android:src="@drawable/eating"
+            android:text="Eat"
+            android:id="@+id/bEat"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="220dp"
+            android:elevation="4dp"
+            android:src="@drawable/cooking"
+            android:text="Cook"
+            android:id="@+id/bCook"
+            android:layout_gravity="bottom" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="87dp"
+            android:layout_marginTop="80dp"
+            android:text="Eat"
+            android:textColor="#ffffff"
+
+            android:textSize="25dp" />
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="80dp"
+            android:text="Cook"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

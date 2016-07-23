@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_id": "appetite-5fd8c",
+    "project_number": "319721613585",
+    "name": "Appetite"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319721613585:android:093143ddc53a2a78",
+        "client_id": "android:com.appetite",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.appetite",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319721613585-nhvpio6dnbq23cnj338r6qm9etjp22il.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appetite",
+            "certificate_hash": "A72176FC5FE466C267FDB432CDE2F085EC8D8BC6"
+          }
+        },
+        {
+          "client_id": "319721613585-jb898moajbuei9c4q570q8u4jfpkchha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">'App'etite</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_chef_details">ChefDetails</string>
+    <string name="title_activity_order_details">OrderDetailsActivity</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_menulist">Menu List</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="eat_button">Eat</string>
+    <string name="cook_button">Cook</string>
+    <string name="action_profile">Profile</string>
+    <string name="action_home">Home</string>
+    <string name="action_logOut">Log Out</string>
+    <string name="action_map">Map</string>
+    <string name="action_mic">Mic</string>
+    <string name="action_camera">Camera</string>
+    <string name="action_reviews">Reviews</string>
+    <string name="title_activity_chef_menu_item">Chef_menuItem</string>
+    <string name="title_activity_chef_menulist">ChefMenulist</string>
+    <string name="title_activity_chef_menulist_adapter">ChefMenulistAdapter</string>
+    <string name="title_activity_chef_menu_info">ChefMenuInfo</string>
+    <string name="title_activity_customer_register">CustomerRegister</string>
+    <string name="title_activity_chefs_enrolled">ChefsEnrolledActivity</string>
+    <string name="title_activity_chef_profile">ChefProfile</string>
+    <string name="title_activity_chefs_enrolled_list_adapter">ChefsEnrolledListAdapter</string>
+    <string name="title_activity_dish_details">DishDetailsActivity</string>
+    <string name="title_activity_reviews_cook_module">ReviewsCookModuleActivity</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyA_3_B9OUTm2CHWjBid9pq2hzuu_zFsBz4</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_chef_users_map">ChefUsersMapActivity</string>
+    <string name="title_activity_chef_orders_list">ChefOrdersList</string>
+    <string name="title_activity_order_confirmation">OrderConfirmation</string>
+    <string name="title_activity_user_notified">UserNotifiedActivity</string>
+    <string name="title_activity_launch_screen">LaunchScreen</string>
+</resources>
