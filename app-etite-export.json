@@ -1,0 +1,340 @@
+{
+  "ChefReview" : {
+    "Kavitha Muthu" : {
+      "Pravallika Yanamadala" : {
+        "date" : "2016-03-09",
+        "rating" : "3.5",
+        "review" : "Kavitha is an amazing cook.",
+        "user" : "Pravallika Yanamadala"
+      }
+    },
+    "Pravallika Yanamadala" : {
+      "George Wilson" : {
+        "date" : "2016-03-06",
+        "rating" : 4,
+        "review" : "Bought macaroons from her. The best I've had so far.",
+        "user" : "George Wilson"
+      },
+      "Kavitha Muthu" : {
+        "date" : "2016-03-08",
+        "rating" : "3.5",
+        "review" : "best cake ever ",
+        "user" : "Kavitha Muthu"
+      },
+      "Priya " : {
+        "date" : "2016-03-08",
+        "rating" : 3,
+        "review" : "Great Kimchi Fried Rice. Will buy from Pravallika again.",
+        "user" : "Priya"
+      },
+      "Sarah Clemens" : {
+        "date" : "2016-03-06",
+        "rating" : 4,
+        "review" : "Good food. Her fried rice are the best",
+        "user" : "Sarah Clemens"
+      },
+      "george wilson" : {
+        "date" : "2016-03-17",
+        "rating" : "4.5",
+        "review" : "112346%&-+8",
+        "user" : "george wilson"
+      },
+      "sneha v" : {
+        "date" : "2016-03-16",
+        "rating" : "4.0",
+        "review" : "best chef ever",
+        "user" : "sneha v"
+      }
+    },
+    "sarah clemens" : {
+      "Kavitha Muthu" : {
+        "date" : "2016-03-18",
+        "rating" : 4.5,
+        "review" : "I have been craving for some good homemade food and Sarah makes the best Seasame chicken.",
+        "user" : "Kavitha Muthu"
+      },
+      "Pravallika Yanamadala" : {
+        "date" : "2016-03-19",
+        "rating" : "4.0",
+        "review" : "great chef !",
+        "user" : "Pravallika Yanamadala"
+      },
+      "Sneha Hegde" : {
+        "date" : "2016-03-18",
+        "rating" : 3.5,
+        "review" : "I like Sarah's food.It is heathy as well.",
+        "user" : "Sneha V C"
+      },
+      "george wilson" : {
+        "date" : "2016-03-18",
+        "rating" : "3",
+        "review" : "Sarah's a good chef. She makes good sesame chicken.",
+        "user" : "george wilson"
+      }
+    }
+  },
+  "chefsEnrolled" : {
+    "Abc" : {
+      "Shrimp Spagetti" : {
+        "foodImg" : "/chef_image_26e51672-a9ae-410d-bf38-a95de35240cc",
+        "ingredients" : "chicken",
+        "quantity" : 8
+      }
+    },
+    "Kavitha Muthu" : {
+      "Healthy chicken tenders" : {
+        "foodImg" : "/chef_image_26e51672-a9ae-410d-bf38-a95de35240cc",
+        "ingredients" : "chicken breast, flour, bread crumbs",
+        "quantity" : "8"
+      },
+      "Kimchi Fried Rice" : {
+        "foodImg" : "/chef_image_2c9ed047-1aee-459f-bd00-675912d72078",
+        "ingredients" : "kimchi, steamed rice, soy sauce, green onions. yellow onions, garlic",
+        "quantity" : "20",
+        "quantityOrdered" : "1"
+      },
+      "Roasted Shrimp Over Spagetti Squash" : {
+        "foodImg" : "/chef_image_c298ec78-c636-4857-8467-0cb1fce38849",
+        "ingredients" : "shrimp, spaghetti, squash",
+        "quantity" : "5"
+      },
+      "Sesame Chicken" : {
+        "foodImg" : "/chef_image_91d53fd0-4b3d-4139-a29c-3524ef022804",
+        "ingredients" : "sesame seeds, chicken breast, olive oil, green peppers, green onions",
+        "quantity" : "5"
+      },
+      "Shrimp Spagetti" : {
+        "foodImg" : "/chef_image_e0f5aeae-fb37-48b4-abe9-e4c4a35144f3",
+        "ingredients" : "hfjgugig",
+        "quantity" : "2"
+      }
+    },
+    "Sneha V C" : {
+      "Sesame Chicken" : {
+        "foodImg" : "/chef_image_e57d7df7-6707-4491-8c07-6b8c350da9b8",
+        "ingredients" : "sesame seeds, soy sauce, garlic, chicken breasts, green onions",
+        "quantity" : "8"
+      }
+    },
+    "george wilson" : {
+      "Kimchi Fried Rice" : {
+        "foodImg" : "/chef_image_e05124b9-a714-470b-aa45-ed47d71a195c",
+        "ingredients" : "kimchi, Fried rice, eggs, veggies",
+        "quantity" : "6"
+      },
+      "Lemon Sage Veggie Pasta" : {
+        "foodImg" : "/chef_image_c1a49450-5905-4114-940d-7b51f6a20bb4",
+        "ingredients" : "carrots,broccoli,pasta,pesto,lemon",
+        "quantity" : "19",
+        "quantityOrdered" : "2"
+      },
+      "Light Summer Chicken Salad" : {
+        "foodImg" : "/chef_image_2567bb86-ab75-406a-8994-c585c6945dd0",
+        "ingredients" : "vhicken,mayo,bread,lettuce",
+        "quantity" : "-6",
+        "quantityOrdered" : "18"
+      },
+      "Sesame Chicken" : {
+        "foodImg" : "/chef_image_afbfed08-3218-4990-9a71-6c74378a6957",
+        "ingredients" : "sesame chicken",
+        "quantity" : "6",
+        "quantityOrdered" : "3"
+      }
+    },
+    "sarah clemens" : {
+      "Healthy chicken tenders" : {
+        "foodImg" : "/chef_image_b7bff5c7-251d-4094-9057-6877f65d4a65",
+        "ingredients" : "chicken breast, bread crumbs, lemon",
+        "quantity" : "12",
+        "quantityOrdered" : "2"
+      },
+      "Kimchi Fried Rice" : {
+        "foodImg" : "/chef_image_4a88108e-2519-4688-9949-a9f16d7312f4",
+        "ingredients" : "kimchi,fried rice",
+        "quantity" : "10",
+        "quantityOrdered" : "1"
+      },
+      "Roasted Shrimp Over Spagetti Squash" : {
+        "foodImg" : "/chef_image_ecb1df3b-9ac1-48e3-bb2e-a13e4d4085aa",
+        "ingredients" : "shrimp, spaghetti, orange squash",
+        "quantity" : "4",
+        "quantityOrdered" : "10"
+      },
+      "Salmon slaw" : {
+        "foodImg" : "/chef_image_506b4076-1e9f-43e4-85a9-e406a64b9b24",
+        "ingredients" : "salmon,slaw",
+        "quantity" : "5",
+        "quantityOrdered" : "5"
+      },
+      "Shrimp Spagetti" : {
+        "foodImg" : "/chef_image_d4dd982e-f75b-4509-adf8-4c391d95ea9a",
+        "ingredients" : "shrimps",
+        "quantity" : "2",
+        "quantityOrdered" : "1"
+      },
+      "Veggie Pasta" : {
+        "foodImg" : "/chef_image_ca40d1ab-368f-402a-9acd-f8af8a5ce15a",
+        "ingredients" : "veggies,pasta,oil",
+        "quantity" : "4",
+        "quantityOrdered" : "1"
+      }
+    }
+  },
+  "menulist" : {
+    "item2" : {
+      "cuisine" : "Italian",
+      "imageEncoded" : "roasted_shrimp.jpg",
+      "item_name" : "Shrimp Spagetti"
+    },
+    "item3" : {
+      "cuisine" : "Italian",
+      "imageEncoded" : "lemon_sage.jpg",
+      "item_name" : "Veggie Pasta"
+    },
+    "item4" : {
+      "cuisine" : "American",
+      "imageEncoded" : "chicken_tenders.jpg",
+      "item_name" : "Healthy chicken tenders"
+    },
+    "item5" : {
+      "cuisine" : "Asian",
+      "imageEncoded" : "kimchi_fried_rice.jpg",
+      "item_name" : "Kimchi Fried Rice"
+    },
+    "item6" : {
+      "cuisine" : "Asian",
+      "imageEncoded" : "salmon_slaw.jpg",
+      "item_name" : "Salmon slaw"
+    },
+    "item7" : {
+      "cuisine" : "Asian",
+      "imageEncoded" : "sesame_chicken.jpg",
+      "item_name" : "Sesame Chicken"
+    }
+  },
+  "notifyUsers" : {
+    "message" : "Your order will be ready.",
+    "orderStatus" : "ready",
+    "user" : "Kavitha Muthu"
+  },
+  "orders" : {
+    "chef" : "sarah clemens",
+    "customer" : "Kavitha Muthu",
+    "dish" : "Veggie Pasta",
+    "quantity" : "1"
+  },
+  "userInfo" : {
+    "chef" : {
+      "Abc" : {
+        "address" : "Sunnyvale CA",
+        "email" : "test@gmail.com",
+        "latitude" : 37.2361,
+        "longitude" : -121.9617,
+        "password" : "113",
+        "phone" : 26482914,
+        "pic" : "https://www.google.com",
+        "username" : "Abc"
+      },
+      "Kavitha Muthu" : {
+        "address" : "Los Gatos",
+        "email" : "kavithamuthu14@gmail.com",
+        "latitude" : 37.2361,
+        "longitude" : -121.9617,
+        "phone" : "345797554",
+        "pic" : "https://lh5.googleusercontent.com/-Q4yXi2TAhN0/AAAAAAAAAAI/AAAAAAAAD2Y/5drk1Ge7ITY/photo.jpg",
+        "username" : "Kavitha Muthu"
+      },
+      "Pravallika Yanamadala" : {
+        "address" : "San Jose",
+        "email" : "pravallika.yanamadala@gmail.com",
+        "latitude" : "37.3382082",
+        "longitude" : "-121.8863286",
+        "phone" : "2456788678",
+        "pic" : "https://lh3.googleusercontent.com/-YGil87-fIkw/AAAAAAAAAAI/AAAAAAAAHeY/H9tGXF92Tlc/photo.jpg",
+        "username" : "Pravallika Yanamadala"
+      },
+      "Sneha V C" : {
+        "address" : "Palo Alto",
+        "email" : "sneha.temp.12345@gmail.com",
+        "latitude" : "37.4418834",
+        "longitude" : "-122.1430195",
+        "phone" : "2456376545",
+        "pic" : "https://lh3.googleusercontent.com/-ZTbw59kWMbg/AAAAAAAAAAI/AAAAAAAAABw/vyGdn_i8Zwo/photo.jpg",
+        "username" : "Sneha V C"
+      },
+      "fgggg" : {
+        "address" : "fgggff",
+        "password" : "ffff",
+        "phone" : "5556736736",
+        "username" : "fgggg"
+      },
+      "george wilson" : {
+        "address" : "Sunnyvale",
+        "email" : "gewilson123@gmail.com",
+        "latitude" : "37.36883",
+        "longitude" : "-122.0363496",
+        "phone" : "4678954322",
+        "pic" : "https://lh4.googleusercontent.com/-EcxaxNl2m3k/AAAAAAAAAAI/AAAAAAAAAAs/-Hcln8f1Thk/photo.jpg",
+        "username" : "george wilson"
+      },
+      "sarah clemens" : {
+        "address" : "Cupertino",
+        "email" : "sarah.clemens007@gmail.com",
+        "latitude" : "37.3229978",
+        "longitude" : "-122.0321823",
+        "phone" : "35790985432",
+        "pic" : "https://lh3.googleusercontent.com/-SUzXNBIzfC4/AAAAAAAAAAI/AAAAAAAAAAs/gzja2ksCvjY/photo.jpg",
+        "username" : "sarah clemens"
+      },
+      "sneha" : {
+        "address" : "Sunnyvale",
+        "password" : "123",
+        "phone" : "123",
+        "username" : "sneha"
+      },
+      "sneha v" : {
+        "address" : "mountain view",
+        "email" : "sneha.temp.12345@gmail.com",
+        "latitude" : "37.3860517",
+        "longitude" : "-122.0838511",
+        "phone" : "4087654327",
+        "pic" : "https://lh3.googleusercontent.com/-ZTbw59kWMbg/AAAAAAAAAAI/AAAAAAAAAAo/fF0ZkauyF58/photo.jpg",
+        "username" : "sneha v"
+      },
+      "test" : {
+        "address" : "los gatos\n",
+        "password" : "test",
+        "phone" : "235666",
+        "username" : "test"
+      }
+    },
+    "customer" : {
+      "Kavitha Muthu" : {
+        "username" : "Kavitha Muthu"
+      },
+      "Pravallika Yanamadala" : {
+        "username" : "Pravallika Yanamadala"
+      },
+      "Vik Suresh" : {
+        "username" : "Vik Suresh"
+      },
+      "abc" : {
+        "password" : "qwe",
+        "username" : "abc"
+      },
+      "anna" : {
+        "password" : "pass",
+        "username" : "anna"
+      },
+      "george wilson" : {
+        "username" : "george wilson"
+      },
+      "sarah clemens" : {
+        "username" : "sarah clemens"
+      },
+      "sneha v" : {
+        "username" : "sneha v"
+      }
+    }
+  }
+}
