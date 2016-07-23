@@ -7,6 +7,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.speech.RecognizerIntent;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.MenuItem;
@@ -62,13 +64,20 @@ public class MenuList extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.menulist_layout);
+        setContentView(R.layout.activity_menulist);
         Firebase.setAndroidContext(this);
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()
                 .build();
-
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+            }
+        });
         mGoogleApiClient = new GoogleApiClient.Builder(this)
                 .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
                 .build();
@@ -85,7 +94,7 @@ public class MenuList extends AppCompatActivity {
         });
 
 
-        mRef = new Firebase("https://app-etite.firebaseio.com/menulist");
+        mRef = new Firebase("https://goodeats-bc4b5.firebaseio.com/chef/Madhumitha Mani");
         menuList = new ArrayList<Menu>();
         mRef.addValueEventListener(new ValueEventListener() {
 
@@ -95,9 +104,9 @@ public class MenuList extends AppCompatActivity {
                 for (DataSnapshot postSnapshot : dataSnapshot.getChildren()) {
 
 
-                    if (postSnapshot.child("item_name").getValue() != null && postSnapshot.child("imageEncoded") != null && postSnapshot.child("cuisine") != null) {
-                        itemName = postSnapshot.child("item_name").getValue().toString();
-                        itemImage = postSnapshot.child("imageEncoded").getValue().toString();
+                    if (postSnapshot.child("dishName").getValue() != null && postSnapshot.child("photoLink") != null && postSnapshot.child("cuisine") != null) {
+                        itemName = postSnapshot.child("dishName").getValue().toString();
+                        itemImage = postSnapshot.child("photoLink").getValue().toString();
                         itemCuisine = postSnapshot.child("cuisine").getValue().toString();
                         menuList.add(new Menu(itemName, itemImage, itemCuisine));
                     }

@@ -100,7 +100,7 @@ public class Login extends AppCompatActivity {
         }
     }
     private void handleSignInResult(GoogleSignInResult result) {
-        Log.d("SIGN IN", "handleSignInResult:" + result.isSuccess());
+        Log.d("SIGN IN", "handleSignInResult:" + result.getStatus());
         if (result.isSuccess()) {
             googleSignIn = true;
             // Signed in successfully, show authenticated UI.

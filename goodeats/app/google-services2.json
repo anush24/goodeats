@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "280501697464",
+    "project_id": "appetite-3d516"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280501697464:android:093143ddc53a2a78",
+        "android_client_info": {
+          "package_name": "com.appetite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280501697464-8rsnqrn5n98m5kbqa1h34v3hk5c1bpj7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appetite",
+            "certificate_hash": "572E3147DBEA9644B1AFF215172B9D4FEB4CB118"
+          }
+        },
+        {
+          "client_id": "280501697464-v54501s226cji79gvtoidabjlfk3ar32.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appetite",
+            "certificate_hash": "7C950AD5A6E6C232DE4F789D8138BB9863C9743B"
+          }
+        },
+        {
+          "client_id": "280501697464-ukpasdkc3tvpnm8l7v2nu5o7bqe1nb0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_3_B9OUTm2CHWjBid9pq2hzuu_zFsBz4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

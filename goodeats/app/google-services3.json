@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "921291724288",
+    "firebase_url": "https://goodeats-bc4b5.firebaseio.com",
+    "project_id": "goodeats-bc4b5",
+    "storage_bucket": "goodeats-bc4b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921291724288:android:37a4906f68164e09",
+        "android_client_info": {
+          "package_name": "com.appetite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921291724288-kikccu2hu9eh26284s1tapc5egi9qui1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appetite",
+            "certificate_hash": "855A64F9FD951DBF12E8E32150606C716C68FC1E"
+          }
+        },
+        {
+          "client_id": "921291724288-4kni0sf74515tq0ht1nqsomp16nctb1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7lHdZh6hypof5r2dTyG9TDopWxnRlCFQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921291724288-4kni0sf74515tq0ht1nqsomp16nctb1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
